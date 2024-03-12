@@ -1,0 +1,13 @@
+Projeyi çalıştırabilmek için kaynak dosyaların bulunduğu "webprojesi" klasörünü XAMPP'ın kurulu olduğu dizindeki "htdocs" klasörüne eklemelisiniz. Örn-> C:\xampp\htdocs
+
+Admin paneline giriş yapabilmek için giriş yapmak zorundasınız. http://localhost/webprojesi/loginscreen/login.php url'si üzerinden veya ana sayfadaki footer kısmından "Admin Paneli" butonuna tıklayarak giriş sayfasına erişebilirsiniz.
+
+Admin paneline giriş bilgileri -> Kullanıcı Adı: admin - Şifre: 12345
+
+Veritabanı bağlantı dosyası adminpanel/db dizinindeki conn.php veritabanı kullanıcı adı ve şifresi farklıysa değiştirebilirsiniz.
+
+Veritabanı dosyalarının bulunduğu "portfolyo" klasörünü XAMPP'ın kurulu olduğu dizindeki "mysql" klasörünün içinde bulunan "data" klasörüne eklemelisiniz. Örn-> C:\xampp\mysql\data
+
+EKSİK OLAN ŞEYLER:
+- Hata mesajlarını yönlendirilen sayfada yazdıramadım (hata mesajlarını session değişkeni ile bütün sayfalarda yazdırmak istiyordum fakat en basit bir değişkeni bile yazdıramadım.).
+
